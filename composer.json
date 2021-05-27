@@ -101,7 +101,6 @@
             "@auto-scripts"
         ],
         "compile":[
-            "npm install @symfony/webpack-encore --save-dev",
             "npm run dev"
         ]
     },
