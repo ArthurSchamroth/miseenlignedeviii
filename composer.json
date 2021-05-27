@@ -99,11 +99,6 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ],
-        "compile":[
-            "install npm",
-            "npm install @symfony/webpack-encore --save-dev",
-            "npm run dev"
         ]
     },
     "conflict": {
