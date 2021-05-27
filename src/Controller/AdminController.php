@@ -45,10 +45,6 @@ class AdminController extends AbstractController
         ]);
     }
 
-    /**
-     * @param User $user
-     * @return RedirectResponse
-     */
     #[Route("/espace_prof/utilisateurs/supprimer/{id}", name: "admin_supprimer_utilisateur")]
     public function supprimer_utilisateur(User $user)
     {
